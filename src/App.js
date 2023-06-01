@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState }, { useState } from 'react'
 import './App.css'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
+import useClipboard from "react-use-clipboard";
+
 import useClipboard from "react-use-clipboard";
 
 const App = () => {
