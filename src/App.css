@@ -59,6 +59,9 @@ p,
 .button-style {
   display: flex;
   margin-top: -60px;
+  justify-content: space-evenly;
+  margin-right: 8px;
+  margin-left: 4px;
 }
 button {
   position: relative;
@@ -72,6 +75,7 @@ button {
   border: none;
   color: white;
   letter-spacing: 0.3;
+  justify-content: space-evenly;
 }
 
 button:focus,
