@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: ; */
+  font-family: "Times New Roman", Times, serif;
 }
 body {
   display: flex;
@@ -12,9 +12,8 @@ body {
   background-color: whitesmoke;
 }
 .container {
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 20px;
-  border: 1px solid black;
   margin-bottom: 100px;
 }
 h2 {
@@ -23,30 +22,65 @@ h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  letter-spacing: 0.2px;
+  letter-spacing: -0.2px;
+  color: rgb(43 45 56);
 }
 p {
-  background-color: red;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   max-width: 500px;
 }
 .main-content {
   max-width: 500px;
   background-color: white;
-  border: 1px solid rgb(45, 43, 43);
-  min-height: 400px;
-  /* height: auto; */
-  /* width: 100%; */
+  border: 1px solid rgb(231, 233, 245);
+  min-height: 300px;
+  height: auto;
+  width: 100%;
   position: relative;
-  border-radius: 20px;
+  border-radius: 15px;
+  box-shadow: 0 12px 12px 10px rgb(154, 149, 149);
+  padding: 10px;
+  resize: none;
+}
+.main-content:focus {
+  border: 0.4px solid black;
+  outline: none;
+}
+p,
+.main-content {
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  line-height: 1.5;
 }
 .button-style {
   display: flex;
+  margin-top: -60px;
 }
 button {
   position: relative;
   display: flex;
-  background-color: greenyellow;
+  background-color: green;
+  margin: auto;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  letter-spacing: 0.3;
 }
+
+button:focus,
+button:hover {
+  background-color: rgb(42, 201, 164);
+  /* box-shadow: 20px 50px 30px 10px rgba(216, 55, 55, 0.1); */
+}
+
+/* .counter-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  } */
