@@ -29,7 +29,7 @@ h2 {
 p {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   max-width: 500px;
 }
 .main-content {
@@ -46,7 +46,7 @@ p {
   resize: none;
 }
 .main-content:focus {
-  border: 0.4px solid black;
+  border: 0.4px solid rgb(43, 45, 56, 0.3);
   outline: none;
 }
 p,

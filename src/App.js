@@ -28,8 +28,8 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <h2>Speech to Text Converter</h2>
-        <p>Hello world</p>
+        <h2>Speech to Text Converter👋 </h2>
+        <p>No need to do typing 💁Just Speak out and copy the sentence </p>
         <div className="main-content" onClick={() => setTextToCopy(transcript)}>
           <p>{transcript}</p>
         </div>
